@@ -34,7 +34,7 @@ class HomePageCoponent extends Component {
     componentWillMount(){
         var arr = [];
         var arrImage = [];
-        for (let i=0;i<35;i++){
+        for (let i=0;i<6;i++){
             arr.push(`第${i}排`)
             //arrImage.push(require('../../asset/'+i+'.png'))
         }

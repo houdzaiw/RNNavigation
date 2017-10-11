@@ -4,6 +4,7 @@ import {
     Text,
     View,
     ScrollView,
+    StyleSheet,
 } from 'react-native';
 
 class ListViewDetailPage extends Component {
@@ -24,7 +25,7 @@ class ListViewDetailPage extends Component {
     componentWillMount(){
         var arr = [];
 
-        for (let i=0;i<35;i++){
+        for (let i=0;i<12;i++){
             arr.push(`第${i}排`)
             //arrImage.push(require('../../asset/'+i+'.png'))
         }
@@ -75,7 +76,6 @@ const styles = StyleSheet.create({
     listViewStyle:{
         flexDirection:'row',
         height:30,
-        width:300,
         backgroundColor:'cyan',
         marginTop:3,
         justifyContent:'center',
